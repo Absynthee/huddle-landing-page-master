@@ -427,6 +427,7 @@ footer {
   }
 
   h2 {
+    font-size: 2.3rem;
     text-align: center;
   }
 
@@ -471,7 +472,7 @@ footer {
 
   .footer-inner {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 
     .footerleft,
@@ -484,6 +485,10 @@ footer {
       align-self: center;
       justify-self: center;
       text-align: center;
+    }
+
+    .footerleft {
+      margin-top: 100px;
     }
 
     .footerimg {
@@ -537,6 +542,7 @@ footer {
   h2 {
     font-size: 2rem;
     margin-block: 30px;
+    line-height: 1.3;
   }
 
   p {
